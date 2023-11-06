@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marvel Redesign</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- cdnjs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/base/snipcart.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/ThrowPropsPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/utils/Draggable.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/CSSPlugin.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/codepen-ga.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- 큐브 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- 추천 코믹스 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+  <!-- 탑 메뉴02 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+
+  <script src="jq/jquery-1.12.3.js"></script>
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+  <header class="first">
+    <div class="wrap">
+      <div class="top-0">
+        <div class="top-link">
+          <div class="top-text">
+            STREAM I AM GROOT SEASON 2 EXCLUSIVELY ON
+          </div>
+          <img src="https://i.imgur.com/K7hjkFs.png" alt="" />
+        </div>
+      </div>
+      <div class="center">
+        <div class="left-box">
+          <div class="sign"><a href="#">SIGN</a></div>
+          <div class="bar"></div>
+          <div class="join"><a href="#">JOIN</a></div>
+        </div>
+        <img src="https://i.imgur.com/lk8vfsn.png" alt="" />
+        <div class="right-box">
+          <a href="#">MARVEL UNLIMITED</a>
+        </div>
+      </div>
+      <div class="line">
+        <!-- 상단 메뉴 -->
+        <nav class="top-menu">
+          <ul class="navi">
+            <li>
+              <a href="#">NEWS</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>SEARCH BY</span></li>
+                      <li><a href="">MOVIE</a></li>
+                      <li><a href="">COMICS</a></li>
+                      <li><a href="">TV SHOWS</a></li>
+                      <li><a href="">GAMES</a></li>
+                      <li><a href="">DIGITAL SERIES</a></li>
+                      <li><a href="">CULTURE & LIFESTYLE</a></li>
+                      <li><a href="">PODCAST</a></li>
+                    </ul>
+                  </div>
+                  <div class="high and">
+                    <ul>
+                      <li><span>AND</span></li>
+                      <li><a href="#">LATEST NEWS</a></li>
+                      <li><a href="#">ALL NEWS</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">TRANDING NEWS</div>
+                  <div class="sub-list sub-1">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="https://i.imgur.com/NslGtZv.jpg" alt="" />
+                          <div class="img-title">COMICS</div>
+                          <div class="img-content">
+                            NYCC 2023: Get Ready for the Fiercest Clawsover of the Century in 'Infinity Paws'
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="https://i.imgur.com/GjgMtiT.jpg" alt="" />
+                          <div class="img-title">GAMES</div>
+                          <div class="img-content">
+                            'Marvel's Spider-Man 2' Escalates Each Character's Personal & Super Hero Struggles
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="https://i.imgur.com/8tjGz4G.jpg" alt="" />
+                          <div class="img-title">MOVIES</div>
+                          <div class="img-content">
+                            Marvel Studios Shares Exciting New Looks At 'The Marvels' and New Posters to Celebrate
+                            Tickets On Sale
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="https://i.imgur.com/59irOtl.jpg" alt="" />
+                          <div class="img-title">COMICS</div>
+                          <div class="img-content">
+                            NYCC 2023: The Rise and Fall of the X-Men's Krakoa Age Revealed
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">COMICS</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>BROWSE BY</span></li>
+                      <li><a href="">SERIES</a></li>
+                      <li><a href="">CHARACTER</a></li>
+                      <li><a href="">CREATOR</a></li>
+                      <li><a href="">EVENT</a></li>
+                    </ul>
+                  </div>
+                  <div class="high and">
+                    <ul>
+                      <li><a href="#">RELEASE CALENDAR</a></li>
+                      <li><a href="#">MARVEL UNLIMITED</a></li>
+                      <li><a href="#">STORMBREAKERS</a></li>
+                      <li><a href="#">READING LISTS</a></li>
+                      <li><a href="#">PRNT SUBSCRIPTIONS</a></li>
+                      <li><a href="#">ALL COMICS</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">LATEST COMICS</div>
+                  <div class="sub-list sub-2">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                          <a href="#">
+                            <img src="https://i.imgur.com/hdoNExD.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide blue ">
+                          <a href="#">
+                            <img src="https://i.imgur.com/z6I12uJ.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red">
+                          <a href="#">
+                            <img src="https://i.imgur.com/hKXNhUG.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-1">
+                          <a href="#">
+                            <img src="https://i.imgur.com/p3HJA0z.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-2">
+                          <a href="#">
+                            <img src="https://i.imgur.com/NTVCAwB.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-3">
+                          <a href="#">
+                            <img src="https://i.imgur.com/9I3ui41.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Immotal thor(2023) #2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+
+                      <!-- If we need scrollbar -->
+                      <!--     <div class="swiper-scrollbar"></div> -->
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="button-1 swiper-button-prev"></div> -->
+                    <!-- <div class="button-1 swiper-button-next"></div> -->
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">CHARACTERS</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><a href="">ALL CHARACTERS</a></li>
+                      <li><a href="">TEAMS & GROUPS</a></li>
+                      <li><a href="">EXPLORE ALL</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">TRANDING IN THE UNIVERSE</div>
+                  <div class="sub-list sub-3">
+                    <ul>
+                      <li class="cha-1">
+                        <a href="#">
+                          <!-- <img src="https://i.imgur.com/CfXTVkd.jpg" alt="" /> -->
+                          <div class="content-card">
+                            <div class="img-title">AGENT MOVIUS</div>
+                          <div class="img-content">
+                            
+                          </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="cha-2">
+                        <a href="#">
+                          <img src="" alt="" />
+                          <div class="content-card">
+                            <div class="img-title">CAPTAIN MARVEL</div>
+                          <div class="img-content">
+                            CAROL DANVERS
+                          </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="cha-3">
+                        <a href="#">
+                          <img src="" alt="" />
+                          <div class="content-card">
+                            <div class="img-title">LOKI</div>
+                          <div class="img-content">
+                           
+                          </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="cha-4">
+                        <a href="#">
+                          <img src="" alt="" />
+                          <div class="content-card">
+                            <div class="img-title">MS.MARVEL</div>
+                          <div class="img-content">
+                            KAMALA KHAN
+                          </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">MOVIES</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><a href="">THE MARVELS</a></li>
+                      <li><a href="">GUARDIANS OF THE GALAXY VOLUME 3</a></li>
+                      <li>
+                        <a href="">ANT-MAN AND THE WASP: QUANTUMANIA</a>
+                      </li>
+                      <li><a href="">SEE ALL MOVIES</a></li>
+                      <li><a href="">DISNEY+</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">MOVIES</div>
+                  <div class="sub-list sub-4">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                          <a href="#">
+                            <img src="https://i.imgur.com/lmqps85.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">The Mavels</div>
+                              <div class="img-content">
+                                NOV 10, 2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide blue ">
+                          <a href="#">
+                            <img src="https://i.imgur.com/GrZCfiQ.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Guardians of the Galaxy Vol. 3</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red">
+                          <a href="#">
+                            <img src="https://i.imgur.com/OmxmwCD.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Ant-Man and the Wasp : Quantumania</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-1">
+                          <a href="#">
+                            <img src="https://i.imgur.com/7ExKEuz.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Black Panther : Wakanda Forever</div>
+                              <div class="img-content">
+                                2022
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-2">
+                          <a href="#">
+                            <img src="https://i.imgur.com/i6MKZFn.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Thor : Love and Thunder</div>
+                              <div class="img-content">
+                                2022
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-3">
+                          <a href="#">
+                            <img src="https://i.imgur.com/r4U5isi.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Doctor Strange in the Multiverse fo the Madness</div>
+                              <div class="img-content">
+                                2022
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+
+                      <!-- If we need scrollbar -->
+                      <!--     <div class="swiper-scrollbar"></div> -->
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="button-1 swiper-button-prev"></div> -->
+                    <!-- <div class="button-1 swiper-button-next"></div> -->                    
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">TV SHOWS</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>SEARCH BY</span></li>
+                      <li><a href="">MOVIE</a></li>
+                      <li><a href="">COMICS</a></li>
+                      <li><a href="">TV SHOWS</a></li>
+                      <li><a href="">GAMES</a></li>
+                      <li><a href="">DIGITAL SERIES</a></li>
+                      <li><a href="">CULTURE & LIFESTYLE</a></li>
+                      <li><a href="">PODCAST</a></li>
+                    </ul>
+                  </div>
+                  <div class="high and">
+                    <ul>
+                      <li><span>AND</span></li>
+                      <li><a href="#">LATEST NEWS</a></li>
+                      <li><a href="#">ALL NEWS</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">TV SHOWS</div>
+                  <div class="sub-list sub-5">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                          <a href="#">
+                            <img src="https://i.imgur.com/3CQPYFy.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Loki | Season 2</div>
+                              <div class="img-content">
+                                OCT 5, 2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide blue ">
+                          <a href="#">
+                            <img src="https://i.imgur.com/fbDAiqj.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">I Am Groot | Season 2</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red">
+                          <a href="#">
+                            <img src="https://i.imgur.com/L3WB41P.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Secret Invasion</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-1">
+                          <a href="#">
+                            <img src="https://i.imgur.com/7o8K25B.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Stan Lee</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-2">
+                          <a href="#">
+                            <img src="https://i.imgur.com/0BJm69J.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">Voices Rising : The Music of Wakanda Forever</div>
+                              <div class="img-content">
+                                2023
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide red-3">
+                          <a href="#">
+                            <img src="https://i.imgur.com/v3GT3gU.jpg" alt="" />
+                            <div class="contents">
+                              <div class="img-title">The Guardians of the Galaxy : Holiday special</div>
+                              <div class="img-content">
+                                2022
+                              </div>
+                            </div>
+                          </a>
+                        </div>                        
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+
+                      <!-- If we need scrollbar -->
+                      <!--     <div class="swiper-scrollbar"></div> -->
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="button-1 swiper-button-prev"></div> -->
+                    <!-- <div class="button-1 swiper-button-next"></div> -->
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">GAMES</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>SEARCH BY</span></li>
+                      <li><a href="">MOVIE</a></li>
+                      <li><a href="">COMICS</a></li>
+                      <li><a href="">TV SHOWS</a></li>
+                      <li><a href="">GAMES</a></li>
+                      <li><a href="">DIGITAL SERIES</a></li>
+                      <li><a href="">CULTURE & LIFESTYLE</a></li>
+                      <li><a href="">PODCAST</a></li>
+                    </ul>
+                  </div>
+                  <div class="high and">
+                    <ul>
+                      <li><span>AND</span></li>
+                      <li><a href="#">LATEST NEWS</a></li>
+                      <li><a href="#">ALL NEWS</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="sub-6">
+                    <div class="title-menu">GAMES</div>
+                   <a href="#">
+                    <div class="tile">
+                      <!-- Why the extra first and last class when you could use :first-child and :last-child you ask? -->
+                      <!-- It's so that I don't have to load a extra JS file to allow Greensock to target pseudo elements. -->
+                      <!-- This way is a little uglier but more performant. -->
+                      <img alt="" class="tile__img tile__img--first" />
+                      <img alt="" class="tile__img tile__img--last" />
+                      <!-- img tags don't validate without src tag :(, let's pretend like we didn't see that ;-P... -->
+                      <!-- ...because this will be implemented into a static site generator, right? riggght? :X  -->
+                    
+                      <div class="title">
+                        &nbsp;<br />&nbsp;
+                        <div class="title__container">
+                          <div class="title__text title__text--first"></div>
+                          <div class="title__text title__text--last"></div>
+                        </div>
+                      </div>
+                    </div>
+                   </a>
+
+<!-- /////////// -->
+<!-- Next button -->
+<!-- /////////// -->
+
+<button class="next-tile">
+    <span class="next-tile__details">
+      <span class="next-tile__heading">Up next</span>
+      <span class="next-tile__title">
+        &nbsp; <br />&nbsp;
+        <span class="next-tile__title__text next-tile__title__text--first"></span>
+        <span class="next-tile__title__text next-tile__title__text--last"></span>
+      </span>
+      <svg class="next-tile__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 42.6 20.1" style="enable-background:new 0 0 42.6 20.1;" xml:space="preserve">
+        <path class="st0" d="M0,8.2h35.5l-5.6-5.6L32.5,0l10.1,10.1L32.5,20.1l-2.6-2.6l5.6-5.6H0V8.2z"/>
+      </svg>
+      <div class="test-arrow"></div>
+    </span>
+    <span class="next-tile__preview">
+      <img class="next-tile__preview__img next-tile__preview__img--first" alt="" />
+      <img class="next-tile__preview__img next-tile__preview__img--last" alt="" />
+    </span>
+  </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">VIDEOS</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>SEARCH BY</span></li>
+                      <li><a href="">MOVIE</a></li>
+                      <li><a href="">COMICS</a></li>
+                      <li><a href="">TV SHOWS</a></li>
+                      <li><a href="">GAMES</a></li>
+                      <li><a href="">DIGITAL SERIES</a></li>
+                      <li><a href="">CULTURE & LIFESTYLE</a></li>
+                      <li><a href="">PODCAST</a></li>
+                    </ul>
+                  </div>
+                  <div class="high and">
+                    <ul>
+                      <li><span>AND</span></li>
+                      <li><a href="#">LATEST NEWS</a></li>
+                      <li><a href="#">ALL NEWS</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">VIDEOS</div>
+                  <div class="sub-list sub-7">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="play-btn">
+                            <div class="play"></div>
+                          </div>
+                          <img src="https://i.imgur.com/OjZpBKj.jpg" alt="" />
+                          <div class="img-title">MARVEL LIVE
+                          </div>
+                          <div class="img-content">
+                            Best of Marvel LIVE at NYCC 2023
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="play-btn">
+                            <div class="play"></div>
+                          </div>
+                          <img src="https://i.imgur.com/wsoRLCK.jpg" alt="" />
+                          <div class="img-title">TRAILERS & EXTRAS</div>
+                          <div class="img-content">
+                            AVENGERS: TWILIGHT | Official Trailer | Marvel Comics
+
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="play-btn">
+                            <div class="play"></div>
+                          </div>
+                          <img src="https://i.imgur.com/DEOLsEH.jpg" alt="" />
+                          <div class="img-title">MARVEL LIVE</div>
+                          <div class="img-content">
+                            Marvel's Spider-Man 2 | Launch Trailer | PS5 Games
+
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="play-btn">
+                            <div class="play"></div>
+                          </div>
+                          <img src="https://i.imgur.com/uUOKjw6.jpg" alt="" />
+                          <div class="img-title">MARVEL LIVE</div>
+                          <div class="img-content">
+                            AMAZING SPIDER-MAN: GANG WAR | Official Trailer | Marvel Comics
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">MORE</a>
+              <ul class="sub-menu">
+                <li>
+                  <div class="high-menu search-by">
+                    <ul>
+                      <li><span>SEARCH BY</span></li>
+                      <li><a href="">MOVIE</a></li>
+                      <li><a href="">COMICS</a></li>
+                      <li><a href="">TV SHOWS</a></li>
+                      <li><a href="">GAMES</a></li>
+                      <li><a href="">DIGITAL SERIES</a></li>
+                      <li><a href="">CULTURE & LIFESTYLE</a></li>
+                      <li><a href="">PODCAST</a></li>
+                    </ul>
+                  </div>
+                  <div class="high-line">
+                    <div class="center-line"></div>
+                  </div>
+                  <div class="title-menu">MORE</div>
+                  <div class="sub-list sub-8">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="img-title">LIFESTILE</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="img-title">ROLE-PLAYING GAME</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="img-title">BOOKS</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="img-title">PODCASTS</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="img-title">SHOP</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="sub-bottom-0">
+                      <div class="insider insider-1">
+                        <a href="#">
+                          <img src="https://i.imgur.com/fR49QYd.png" alt="">
+                          <div class="text-1">MARVEL INSIDER</div>
+                          <div class="text-2">Get rewarded for Being a Marvel Fan</div>
+                        </a>
+                      </div>
+                      <div class="insider insider-2">
+                        <a href="#">
+                          <img src="https://i.imgur.com/K8TAT3G.png" alt="">
+                          <div class="text-1">MARVEL UNLIMITED</div>
+                          <div class="text-2">Access Over 30,000+ Digital Comics</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="body">
+    <!-- 탑 이미지 슬라이드 -->
+    <div class="marvel-best">
+      <div class="slide-title">MARVEL BEST</div>
+      <div class="img-slide">
+        <a href="#">
+          <div class="slide-text">
+            <span class="text-1">MARVEL MOVIE</span>
+            <div class="line"></div>
+            <span class="text-2">CAPTAIN MARVELS</span>
+            <span class="text-3">Her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms.
+              Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau.</span>
+            <span class="button-box">
+              <span>
+                <span>LEARN MORE</span>
+              </span>
+            </span>
+          </div>
+          <img src="https://i.imgur.com/03viZDM.jpg" alt="" />
+        </a>
+        <a href="#">
+          <div class="slide-text">
+            <span class="text-1">MARVEL COMICS</span>
+            <div class="line"></div>
+            <span class="text-2">I Am Iron Man (2023)</span>
+            <span class="text-3">Beneath the red and gold armor is a hopeless romantic, a genius inventor, a war hero, a
+              billionaire, an Avenger, a person, TONY STARK.</span>
+            <span class="button-box">
+              <span>
+                <span>LEARN MORE</span>
+              </span>
+            </span>
+          </div>
+          <img src="https://i.imgur.com/NHFESCP.jpg" alt="" />
+        </a>
+        <a href="#">
+          <div class="slide-text">
+            <span class="text-1">MARVEL LEGO</span>
+            <div class="line"></div>
+            <span class="text-2">MARVEL AVENGERS OF ALL</span>
+            <span class="text-3">Lego Marvel's Avengers
+              Avengers Assemble! the blockbuster sequel Marvel’s Avengers: Age of Ultron, and more. Play as the most
+              powerful Super Heroes in their quest to save the world!</span>
+            <span class="button-box">
+              <span>
+                <span>LEARN MORE</span>
+              </span>
+            </span>
+          </div>
+          <img src="https://i.imgur.com/BEuIj3r.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <!-- 무비 시리즈 -->
+    <div class="movie-series">
+      <div class="series-title">MOVIE SERIES</div>
+      <div class="series-slide">
+        <div id="hero-slides">
+          <div id="header-1">
+            <div id="logo"></div>
+            <div id="menu">
+              <div id="hamburger">
+                <div class="slice"></div>
+                <div class="slice"></div>
+                <div class="slice"></div>
+              </div>
+            </div>
+          </div>
+          <div id="slides-cont">
+            <div class="button" id="next"></div>
+            <div class="button" id="prev"></div>
+            <div id="slides">
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/5A4J7SF.png);
+                  ">
+                <div class="number">01</div>
+                <div class="body">
+                  <div class="location">2023</div>
+                  <div class="headline">GUARDIANS OF THE GALAXY : VOLUME 3</div>
+                  <a href="https://unsplash.com/photos/EYmhcdGuYmI" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/a4u5PGZ.jpg);
+                  ">
+                <div class="number">02</div>
+                <div class="body">
+                  <div class="location">2023</div>
+                  <div class="headline">ANTMAN : QUANTUMANIA</div>
+                  <a href="https://unsplash.com/photos/ANJHXftvvJ8" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/0ynRaU8.jpg);
+                  ">
+                <div class="number">03</div>
+                <div class="body">
+                  <div class="location">2022</div>
+                  <div class="headline">THOR : LOVE & THUNDER</div>
+                  <a href="https://unsplash.com/photos/73aocAAt7rs" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/mT3ywx3.png);
+                  ">
+                <div class="number">04</div>
+                <div class="body">
+                  <div class="location">2022</div>
+                  <div class="headline">DOCTOR STRANGE</div>
+                  <a href="https://unsplash.com/photos/aPDCEoW7B78" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/iRPbISX.png);
+                  ">
+                <div class="number">05</div>
+                <div class="body">
+                  <div class="location">2021</div>
+                  <div class="headline">Shang-Chi and the Legend of the Ten Rings</div>
+                  <a href="https://unsplash.com/photos/Akz00I_GGjU" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/OGjVudR.png);
+                  ">
+                <div class="number">06</div>
+                <div class="body">
+                  <div class="location">2019</div>
+                  <div class="headline">AVANGERS : ANDGAME</div>
+                  <a href="https://unsplash.com/photos/pTn26knnKVw" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slide" style="
+                    background-image: url(https://i.imgur.com/BYuiBzG.png);
+                  ">
+                <div class="number">07</div>
+                <div class="body">
+                  <div class="location">2019</div>
+                  <div class="headline">CAPTAIN MARVEL</div>
+                  <a href="https://unsplash.com/photos/v63B_MUiFw8" target="_blank">
+                    <div class="link">MORE VIEW</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="next-catch"></div>
+            <div id="prev-catch"></div>
+          </div>
+          <div id="footer">
+            <a href="https://dribbble.com/shots/3888265-Motion-Study" target="_blank">
+              <div id="dribbble"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 추천 코믹스 -->
+    <div class="favorit-comics">
+      <div class="favorit-title">FAVORIT COMICS</div>
+      <div class="favorit-list">
+        <div class="favorit-text">
+          <div class="left-logo"><img src="https://i.imgur.com/K8TAT3G.png" alt=""></div>
+          <div class="favorit-text-content">
+            <div class="favorit-top">AVAILABLE NOW</div>
+            <div class="favorit-bar"></div>
+            <div class="text-title">NEW ON MARVEL UNLIMITED</div>
+            <div class="text-contents">Read these plus 30,000+ digital comics for $9.99 a month!</div>
+            <span class="button-box">
+              <span>
+                <span>LEARN MORE</span>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="bg-opacity">
+        </div>
+        <div class="slider-0 js-slider">
+          <div class="slider-0__inner js-slider__inner">
+            <div class="slide js-slide">
+              <div class="slide__bg" style="background-image: url('https://i.imgur.com/UOTTQBF.jpg');"></div>
+            </div>
+            <div class="slide js-slide">
+              <div class="slide__bg" style="background-image: url('https://i.imgur.com/HwK9QYc.jpg');"></div>
+            </div>
+            <div class="slide js-slide">
+              <div class="slide__bg" style="background-image: url('https://i.imgur.com/N2EGPiB.jpg');"></div>
+            </div>
+            <div class="slide js-slide">
+              <div class="slide__bg" style="background-image: url('https://i.imgur.com/gRgQNgO.jpg');"></div>
+            </div>
+            <div class="slide js-slide">
+              <div class="slide__bg" style="background-image: url('https://i.imgur.com/4cTxVvu.jpg');"></div>
+            </div>
+            <!-- <div class="slide js-slide">
+                <div class="slide__bg" style="background-image: url('https://placekitten.com/g/800/400');"></div>
+              </div>
+              <div class="slide js-slide">
+                <div class="slide__bg" style="background-image: url('https://placekitten.com/g/800/400');"></div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="text text--bottom-left">Drag to explore</div> -->
+    </div>
+  </div>
+
+  <!-- 코믹스 슬라이드 -->
+  <div class="comics-slide">
+    <section class="section-top height-100vh con-min-width">
+      <div class="section-top__wrap relative height-100p">
+        <ul class="section-top__content flex height-100p">
+          <li class="width-25p flex flex-ai-c flex-jc-c">
+            <div class="triangle"></div>
+            <div class="triangle-text">
+              <div class="text-1">GAMES</div>
+              <div class="text-2">'Marvel's Spider-Man 2' Escalates Each Character's Personal & Super Hero Struggles
+              </div>
+              <div class="text-3">Published October 10, 2023</div>
+            </div>
+          </li>
+          <li class="width-25p flex flex-ai-c flex-jc-c">
+            <div class="triangle"></div>
+            <div class="triangle-text">
+              <div class="text-1">TV SHOWS</div>
+              <div class="text-2">Witness 'The Amazing Loki' - New Loki Season 2 Featurette Released</div>
+              <div class="text-3">Published September 18, 2023</div>
+            </div>
+          </li>
+          <li class="width-25p flex flex-ai-c flex-jc-c">
+            <div class="triangle"></div>
+            <div class="triangle-text">
+              <div class="text-1">GAMES</div>
+              <div class="text-2">The Guardians of the Galaxy Rock Marvel Games</div>
+              <div class="text-3">Published April 25, 2023
+              </div>
+            </div>
+          </li>
+          <li class="width-25p flex flex-ai-c flex-jc-c">
+            <div class="triangle"></div>
+            <div class="triangle-text">
+              <div class="text-1">MOVIES</div>
+              <div class="text-2">Thor | Love & Thunder</div>
+              <div class="text-3">Published April 25, 2023
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="section-top__bg">
+          <li style="background-image: url(https://i.imgur.com/1AYSyjq.jpg)">
+            <div style="background-image: url(https://i.imgur.com/1AYSyjq.jpg)"></div>
+          </li>
+          <li style="background-image: url(https://i.imgur.com/hD2KOZ0.jpg)">
+            <div style="background-image: url(https://i.imgur.com/hD2KOZ0.jpg)"></div>
+          </li>
+          <li style="background-image: url(https://i.imgur.com/xXzSD7q.jpg)">
+            <div style="background-image: url(https://i.imgur.com/xXzSD7q.jpg)"></div>
+          </li>          
+          <li style="background-image: url(https://i.imgur.com/0ynRaU8.jpg)">
+            <div style="background-image: url(https://i.imgur.com/0ynRaU8.jpg)"></div>
+            </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- 하이퍼 박스 -->
+  <div class="hype-box">
+    <div class="back-bg"><img src="https://i.imgur.com/Eljpnou.png" alt=""></div>
+    <div class="hype-title">
+      <div class="hype-title-box">
+        <div class="sub">최고의 인기 뉴스</div>
+        <div class="main">THE HYPE BOX</div>
+      </div>
+    </div>
+    <div class="h">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-1">
+            <!-- <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> -->
+            <div class="title-contents-2">
+              <div class="title">
+                <div class="high-text">THE MAKING OF</div>
+                <div class="low-text">SECRET INVASION</div>
+              </div>
+              <div class="bar-2"></div>
+              <div class="contents-2">‘Marvel Studios' Assembled: The Making of Secret Invasion' Is Now Streaming on
+                Disney+</div>
+              <span class="button-box">
+                <span>
+                  <span>READ MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-2">
+            <!-- <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> -->
+            <div class="title-contents-2">
+              <div class="title">
+                <div class="high-text">Marvel's Guardians of the Galaxy</div>
+                <div class="low-text"> On the Red Carpet</div>
+              </div>
+              <div class="bar-2"></div>
+              <div class="contents-2">Ready to lead the Guardians of the Galaxy? Become Star-Lord in Marvel’s Guardians
+                of the Galaxy available now for PlayStation, Xbox, and PC!</div>
+              <span class="button-box">
+                <span>
+                  <span>READ MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-3">
+            <!-- <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> -->
+            <div class="title-contents-2">
+              <div class="title">
+                <div class="high-text">Monica Rambeau</div>
+                <div class="low-text">Photon</div>
+              </div>
+              <div class="bar-2"></div>
+              <div class="contents-2">Universal powerhouse Monica Rambeau stars in her very own all-new adventure! The
+                hero known as Photon has been charged with making a very special, very cosmic delivery – should be light
+                work (get it?) for Monica…if family drama doesn’t hold her back!</div>
+              <span class="button-box">
+                <span>
+                  <span>READ MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-4">
+            <!-- <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> -->
+            <div class="title-contents-2">
+              <div class="title">
+                <div class="high-text">LOVE & THUNDER</div>
+                <div class="low-text">THOR</div>
+              </div>
+              <div class="bar-2"></div>
+              <div class="contents-2">finds the God of Thunder on a journey unlike anything he’s ever faced—one of
+                self-discovery. But his efforts are interrupted by a galactic killer known as Gorr the God Butcher, who
+                seeks the extinction of the gods. To combat the threat, Thor enlists the help of King Valkyrie, Korg and
+                ex-girlfriend Jane Foster, who—to Thor’s surprise—inexplicably wields his magical hammer, Mjolnir, as
+                the Mighty Thor.</div>
+              <span class="button-box">
+                <span>
+                  <span>READ MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 어나더 비디오_원형 -->
+  <div class="another-video">
+    <div class="video-title">
+      <div class="video-title-box">
+        <div class="sub">당신이 원하는 무비 클립</div>
+        <div class="main">OTHER VIDEO</div>
+      </div>
+    </div>
+    <div class="cd-box">
+      <svg class="svg-mask" width="1200px" height="600px" viewBox="0 0 1200 600">
+        <defs>
+          <clipPath id="quarterMask">
+            <path d="M299.001,26.649L0,325.65c330.267,330.268,865.736,330.268,1196.004,0L897.003,26.649
+             C731.868,191.784,464.136,191.784,299.001,26.649z" />
+          </clipPath>
+        </defs>
+      </svg>
+      <div class="header-2"></div>
+      <div class="content">
+        <ul class="featured-slider" id="wheel">
+          <li class="active">
+            <div class="image">
+              <div class="details">
+                <h1 class="title">LOKY</h1>
+                <hr class="small" />
+                <h6 class="roles">2023 | Season 2</h6>
+                <a href="#" class="button">OVERVIEW</a>
+              </div>
+              <div class="iframe_wrap">
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/j-0Li8Q14g8?autoplay=1&mute=1&start=110&end=120&controls=0&loop=1&playlist=j-0Li8Q14g8&playsinline=1&vq=hd1080"
+                frameborder="0" style="pointer-events: none;"></iframe>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <div class="details">
+                <h1 class="title">I'm groot</h1>
+                <hr class="small" />
+                <h6 class="roles">2023 | Season 1</h6>
+                <a href="#" class="button">OVERVIEW</a>
+              </div>
+              <div class="iframe_wrap">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/D7eFpRf4tac?autoplay=1&mute=1&start=110&end=120&controls=0&loop=1&playlist=D7eFpRf4tac&playsinline=1&vq=hd1080"
+                  frameborder="0" style="pointer-events: none;"></iframe>
+                </div>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <div class="details">
+                <h1 class="title">SECRET INVASION</h1>
+                <hr class="small" />
+                <h6 class="roles">2023 | Season 1</h6>
+                <a href="#" class="button">OVERVIEW</a>
+              </div>
+              <div class="iframe_wrap">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/FgUMvM7UWaw?autoplay=1&mute=1&start=110&end=120&controls=0&loop=1&playlist=FgUMvM7UWaw&playsinline=1&vq=hd1080"
+                  frameborder="0" style="pointer-events: none;"></iframe>
+                </div>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <div class="details">
+                <h1 class="title">WHAT IF...?</h1>
+                <hr class="small" />
+                <h6 class="roles">2021 | Season 1</h6>
+                <a href="#" class="button">OVERVIEW</a>
+              </div>
+              <div class="iframe_wrap">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/4iLVoEg9aLk?autoplay=1&mute=1&start=110&end=120&controls=0&loop=1&playlist=4iLVoEg9aLk&playsinline=1&vq=hd1080"
+                  frameborder="0" style="pointer-events: none;"></iframe>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="nav-1">
+        <a class="prev">Prev</a>
+        <a class="next">Next</a>
+      </nav>
+      <div id="pentitle" style="display: none;" data-title="29/52 - Circular Slider"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- 인사이드 박스 -->
+  <div class="marvel-inside-box">
+    <div class="inside-img">
+      <div class="splitview skewed">
+        <div class="panel bottom">
+          <div class="content">
+            <div class="description">
+              <a href="#">
+                <div class="text-1">MARVEL INSIDER</div>
+                <h2>Watch, Earn, Redeem!</h2>
+                <div class="text-2">Get rewarded for doing what you already do as afan.</div>
+                <span class="button-box">
+                  <span>
+                    <span>READ MORE</span>
+                  </span>
+                </span>
+                <div class="text-3">Terms and Conditions Apply.</div>
+              </a>
+            </div>
+
+            <img src="https://i.imgur.com/PY7Ljra.jpg" alt="Original">
+          </div>
+        </div>
+
+        <div class="panel top">
+          <div class="content">
+            <div class="description">
+              <a href="#">
+                <div class="text-1">MARVEL INSIDER</div>
+                <h2>Watch, Earn, Redeem!</h2>
+                <div class="text-2">Get rewarded for doing what you already do as afan.</div>
+                <span class="button-box">
+                  <span>
+                    <span>JOIN NOW</span>
+                  </span>
+                </span>
+                <div class="text-3">Terms and Conditions Apply.</div>
+              </a>
+            </div>
+
+            <img src="https://i.imgur.com/PY7Ljra.jpg" alt="Duotone">
+          </div>
+        </div>
+        <div class="handle"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="footer-list">
+      <div class="logo-bottom"><a href="#">
+          <img src="https://i.imgur.com/ysj270c.png" alt="">
+        </a></div>
+      <nav class="list-1">
+        <ul>
+          <li><a href="#">ABOUT MARVEL</a></li>
+          <li><a href="#">HELP/FAQS</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">INTERNSHIPS</a></li>
+        </ul>
+      </nav>
+      <nav class="list-2">
+        <ul>
+          <li><a href="#">ADVERTISING</a></li>
+          <li><a href="#">DISNEY+</a></li>
+          <li><a href="#">MARVELHQ.COM</a></li>
+          <li><a href="#">REDEEM DIGITAL COMICS</a></li>
+        </ul>
+      </nav>
+      <nav class="list-3">
+        <ul>
+          <li>
+            <div class="insider insider-1">
+              <a href="#">
+                <img src="https://i.imgur.com/fR49QYd.png" alt="">
+                <div class="text-1">MARVEL INSIDER</div>
+                <div class="text-2">Get rewarded for Being a Marvel Fan</div>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="insider insider-2">
+              <a href="#">
+                <img src="https://i.imgur.com/K8TAT3G.png" alt="">
+                <div class="text-1">MARVEL UNLIMITED</div>
+                <div class="text-2">Access Over 30,000+ Digital Comics</div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-follow">
+      <div class="follow-title">FOLLOW MARVEL</div>
+      <div class="follow-list">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-tumblr"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <nav class="bottom-list">
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Interest-Based Ads</a></li>
+          <li><a href="#">License Agreement</a></li>
+          <li><a href="#">2023 MARVEL</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  </div>
+</body>
+
+</html>
